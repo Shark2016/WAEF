@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+path的type表示请求类型(1=请求hash，2=请求内容，3=请求hash和内容)
+
+
+1.根据特征页面MD5判断:
+<sign type=1 md5="a56d18440ca1fd39685761a5c69cefdb">dnt_2</sign>
+2.根据特征页面关键字判断:
+<sign type=2 path="/Template/default/images/my.css" keyword="dz">cms</sign>
+3.根据特征页面截取指定关键字判断:
+<sign type=3 start="&lt;meta name=&quot;generator&quot; content=&quot;" stop="&quot;"></sign>
+
+提速Tips:
+1.合并相同路径，减少请求次数
+2.概率高的放在前面
+3.混合搭配，不要按CMS顺序，保证前面的每条记录都是不同的CMS，且选特征概率最高的一两条
+4.废除重复特征、无效特征、冗余特征，一般一个CMS最多不超过10条特征，5条内最佳
+5.广泛的包括多种CMS，做到多而精
+6.多线程
+
+另外可以不精简，添加hits标志，这样每次请求时按CMS种类遍历，按照每种CMS中hits数从高到低排序，而且每次命中后就将指纹文件中hits加1供下次使用
+
+
+目前已经精简的CMS特征：
+(有效验证、精简、大小写验证，robots.txt特征采集)
+DedeCMS
+WordPress
+Discuz
+EmpireCMS
+Ecshop
+AspCMS
+EspCMS
+PHPWind
+phpCMS
+PHP168
+Joomla
+Drupal
+Z-Blog
+Emlog
+Joekoe
+qiboCMS
+KingCMS(for php)
+PHPWind2
+HDwiki
+Dvbbs
+PowerEasy
+FoosunCMS
+KesionCMS
+SiteServer
+Southidc
+未精简的CMS特征：
+KingCMS(for asp)
+LjCMS
+liangjing
+
+未添加特征：
+MetInfo		http://www.xa189.com.cn/
+Typecho		http://www.isaced.com/
+Destoon B2B	http://www.zfa.com.cn/	http://www.destoon.com/
+
+
+
+

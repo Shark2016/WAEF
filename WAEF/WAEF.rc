@@ -1,0 +1,748 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#include ""res\\WAEF.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#include ""l.CHS\\afxdb.rc""        // 数据库资源\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\WAEF.ico"
+IDR_WAEFTYPE            ICON                    "res\\WAEFDoc.ico"
+IDI_ICON_HOST           ICON                    "E:\\Resource\\图标\\273.ico"
+IDI_ICON_HTML           ICON                    "E:\\Resource\\图标\\0002.ico"
+IDI_ICON_DIR            ICON                    "E:\\Resource\\图标\\0014.ico"
+IDI_ICON_FILE           ICON                    "E:\\Resource\\图标\\1000.ico"
+IDI_ICON_PIC            ICON                    "E:\\Resource\\图标\\4000.ico"
+IDI_ICON_PARAM          ICON                    "e:\\resource\\图标\\icon1.ico"
+IDI_ICON_ANCHOR         ICON                    "e:\\resource\\图标\\icon2.ico"
+IDI_ICON_CSS            ICON                    "E:\\Resource\\图标\\Dreamware\\458.ico"
+IDI_ICON_ASP            ICON                    "E:\\Resource\\图标\\Dreamware\\451.ico"
+IDI_ICON_JSP            ICON                    "E:\\Resource\\图标\\Dreamware\\452.ico"
+IDI_ICON_ASPX           ICON                    "E:\\Resource\\图标\\Dreamware\\455.ico"
+IDI_ICON_PHP            ICON                    "E:\\Resource\\图标\\Dreamware\\456.ico"
+IDI_ICON_JS             ICON                    "E:\\Resource\\图标\\Dreamware\\457.ico"
+IDI_ICON_XML            ICON                    "E:\\Resource\\图标\\Dreamware\\459.ico"
+IDI_ICON_DOC            ICON                    "E:\\Resource\\图标\\0017.ico"
+IDI_ICON_GREEN          ICON                    "e:\\resource\\图标\\dreamware\\icon2.ico"
+IDI_ICON_ORANGE         ICON                    "e:\\resource\\图标\\dreamware\\icon_gre.ico"
+IDI_ICON_RED            ICON                    "e:\\resource\\图标\\dreamware\\ico00001.ico"
+IDI_ICON_BLUE           ICON                    "e:\\resource\\图标\\dreamware\\ico00002.ico"
+IDI_ICON3               ICON                    "e:\\resource\\图标\\dreamware\\icon3.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDB_SPLASH_BITMAP       BITMAP                  "res\\无标题.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 48, 45
+BEGIN
+    BUTTON      ID_INFO_VIEW
+    BUTTON      ID_SPID_VIEW
+    BUTTON      ID_SCAN_VIEW
+    BUTTON      ID_DEEP_VIEW
+    BUTTON      ID_REPT_VIEW
+    SEPARATOR
+    BUTTON      ID_AUDIT_VIEW
+    SEPARATOR
+    BUTTON      ID_PLUG_VIEW
+    BUTTON      ID_HTTP_DEBUG
+    BUTTON      ID_TOOL_VIEW
+    SEPARATOR
+    BUTTON      ID_SETTING_DLG
+    BUTTON      ID_CHECK_UPDATE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "记录(&R)"
+    BEGIN
+        MENUITEM "第一条记录(&F)",                   ID_RECORD_FIRST
+        MENUITEM "上一条记录(&P)",                   ID_RECORD_PREV
+        MENUITEM "下一条记录(&N)",                   ID_RECORD_NEXT
+        MENUITEM "最后一条记录(&L)",                  ID_RECORD_LAST
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                     ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 WAEF(&A)...",              ID_APP_ABOUT
+    END
+END
+
+IDR_MENU_TREEPOP MENU
+BEGIN
+    POPUP "TreePop"
+    BEGIN
+        MENUITEM "浏览页面(&O)",                    ID_TREEPOP_OPEN_URL
+        MENUITEM "复制URL(&C)",                   ID_TREEPOP_COPY_URL
+        MENUITEM SEPARATOR
+        MENUITEM "导出URL(&D)",                   ID_TREEPOP_EXPORT_NODE
+        MENUITEM "检测分支(&W)",                    ID_TREEPOP_CHECK_NODE
+        MENUITEM SEPARATOR
+        MENUITEM "删除节点(&R)",                    ID_TREEPOP_CLEAR_NODE
+        MENUITEM "全部清除(&A)",                    ID_TREEPOP_CLEAR_TREE
+    END
+END
+
+IDR_MENU_INFOPOP MENU
+BEGIN
+    POPUP "InfoPop"
+    BEGIN
+        MENUITEM "浏览该站(&O)",                    ID_INFOPOP_OPEN_SITE
+        MENUITEM "爬行该站(&S)",                    ID_INFOPOP_SPIDER_SITE
+        MENUITEM "深度检测(&D)",                    ID_COLLECT_DEEP_SCAN
+        MENUITEM "插件检测(&P)",                    ID_COLLECT_PLUGIN_SCAN
+        MENUITEM SEPARATOR
+        MENUITEM "导入列表(&I)",                    ID_INFOPOP_IMPORT_LIST
+        MENUITEM "导出列表(&E)",                    ID_INFOPOP_EXPORT_LIST
+        MENUITEM "清除列表(&S)",                    ID_INFOPOP_CLEAR_LIST
+    END
+END
+
+IDR_MENU_SCANPOP MENU
+BEGIN
+    POPUP "ScanPop"
+    BEGIN
+        MENUITEM "单独检测(&C)",                    ID_TREEPOP_DOWN_TREE
+        MENUITEM "访问链接(&O)",                    ID_TREEPOP_OPEN_SITE
+        MENUITEM SEPARATOR
+        MENUITEM "合并链接(&B)",                    ID_TREEPOP_DOWN_TREE
+        MENUITEM SEPARATOR
+        MENUITEM "手工添加(&A)",                    ID_TREEPOP_DOWN_TREE
+        MENUITEM "清理列表(&D)",                    ID_SCAN_CLEAR_LIST
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 WAEF"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "WAEF，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2013",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_INFO_COLL_VIEW DIALOGEX 0, 0, 671, 286
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_INFO_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,10,53,652,221
+    PUSHBUTTON      "域名信息",IDC_BTN_GET_INFO,287,18,72,20
+    EDITTEXT        IDC_EDIT_DOMAIN,19,22,93,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "=>",IDC_BTN_RESOLVE_IP,122,22,30,14
+    EDITTEXT        IDC_EDIT_IP_ADDRESS,163,21,91,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "信息刺探",IDC_BTN_SERVER_INFO,380,18,73,19
+    PUSHBUTTON      "导出列表",IDC_BTN_EXPORT_LIST,567,18,74,19
+    PUSHBUTTON      "导入列表",IDC_BTN_IMPORT_LIST,470,18,74,19
+    GROUPBOX        "",IDC_STATIC,10,7,255,38
+    GROUPBOX        "",IDC_STATIC,275,7,383,38
+END
+
+IDD_WAEF_VIEW DIALOGEX 0, 0, 185, 93
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+END
+
+IDD_WEAK_SCAN_VIEW DIALOGEX 0, 0, 671, 293
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "检测",IDC_SCAN_START,599,22,50,18
+    CONTROL         "",IDC_SCAN_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,12,12,566,193
+    PUSHBUTTON      "查看报告",IDC_WEAK_REPORT,599,48,49,18
+    LISTBOX         IDC_WEAK_LOGLIST,12,215,646,65,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,589,7,70,197
+END
+
+IDD_SITE_SPIDER_VIEW DIALOGEX 0, 0, 657, 293
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TREE_RESULT,"SysTreeView32",WS_BORDER | WS_HSCROLL | WS_TABSTOP,8,15,276,264
+    PUSHBUTTON      "开始",IDC_SPIDER_START,302,263,163,17
+    EDITTEXT        IDC_TARGET_URL,336,24,288,14,ES_AUTOHSCROLL
+    LTEXT           "目标:",IDC_STATIC,312,25,22,8
+    LTEXT           "深度:",IDC_STATIC,312,195,22,8
+    PUSHBUTTON      "停止",IDC_SPIDER_STOP,478,263,152,17
+    PUSHBUTTON      "设置会话",IDC_BTN_SET_SESSION,565,151,62,15
+    COMBOBOX        IDC_COMBO_DEEP,337,193,135,157,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "目标设置",IDC_STATIC,299,10,338,42
+    GROUPBOX        "会话设置",IDC_STATIC,299,62,338,112
+    GROUPBOX        "爬行模式",IDC_STATIC,299,179,336,77
+    CONTROL         "仅从当前目录爬行",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,312,215,80,10
+    CONTROL         "从主站开始爬行",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,397,215,72,10
+    CONTROL         "仅列出非主站链接",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,475,215,80,10
+    CONTROL         "爬行所有链接",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,559,215,64,10
+    CONTROL         "分析img元素",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,313,237,60,10
+    CONTROL         "爬行css js文件",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,397,237,72,10
+    CONTROL         "导出所有链接",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,477,237,64,10
+    EDITTEXT        IDC_EDIT_COOKIE,311,151,247,13,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SESSION_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,311,77,317,64
+END
+
+IDD_WEAK_REPORT_VIEW DIALOGEX 0, 0, 668, 289
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "扫描结果",IDC_STATIC,12,8,306,268
+    GROUPBOX        "详细信息",IDC_STATIC,329,9,327,216
+    GROUPBOX        "",IDC_STATIC,329,232,327,44
+    PUSHBUTTON      "导出报告",IDC_BUTTON1,580,246,59,21
+    CONTROL         "PDF格式(pdf)",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,507,250,64,10
+    CONTROL         "网页格式(html)",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,425,250,72,10
+    CONTROL         "文本格式(txt)",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,347,250,68,10
+    CONTROL         "",IDC_TREE_REPORT,"SysTreeView32",WS_BORDER | WS_HSCROLL | WS_TABSTOP,22,25,285,240
+END
+
+IDD_SESSION_DLG DIALOGEX 0, 0, 371, 178
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "获取会话窗口"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,256,157,50,14
+    PUSHBUTTON      "取消",IDCANCEL,314,157,50,14
+    PUSHBUTTON      "+",IDC_BTN_GETCOOKIE,231,157,17,14
+    EDITTEXT        IDC_EDIT_COOKIE,7,157,217,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SESSION_LIST,"SysListView32",LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,357,143
+END
+
+IDD_SPLASH_DLG DIALOGEX 0, 0, 405, 244
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         340,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE,0,0,405,244
+    CONTROL         "",IDC_SPLASH_PROGRESS,"msctls_progress32",WS_BORDER,8,224,389,13
+END
+
+IDD_DEEP_SCAN_VIEW DIALOGEX 0, 0, 661, 289
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "模块选择 (双击加载)",IDC_STATIC,8,54,274,224
+    GROUPBOX        "交互窗口",IDC_STATIC,292,8,363,269
+    EDITTEXT        IDC_DEEP_INTERACTIVE_BOX,302,23,345,215,ES_MULTILINE | ES_AUTOVSCROLL | WS_VSCROLL
+    PUSHBUTTON      "加载描述",IDC_DEEP_LOAD_DESC,305,249,67,20
+    PUSHBUTTON      "参数字串",IDC_DEEP_PARAM_STR,395,249,67,20
+    PUSHBUTTON      "执行",IDC_DEEP_EXECUTE,485,249,67,20
+    EDITTEXT        IDC_DEEP_TARGET_HOST,61,25,209,14,ES_AUTOHSCROLL
+    LTEXT           "目标主机: ",IDC_STATIC,17,27,41,8
+    PUSHBUTTON      "添加到报告",IDC_DEEP_ADD_REPORT,575,249,66,20
+    GROUPBOX        "目标参数",IDC_STATIC,9,7,272,41
+    CONTROL         "",IDC_DEEP_MODULE_TREE,"SysTreeView32",WS_BORDER | WS_HSCROLL | WS_TABSTOP,17,68,256,200
+END
+
+IDD_WAEF_PLUGIN_VIEW DIALOGEX 0, 0, 661, 289
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "模块选择 (双击加载)",IDC_STATIC,8,65,274,134
+    CONTROL         "",IDC_PLUG_PLUGIN_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,15,81,255,108
+    EDITTEXT        IDC_PLUG_INTERACTIVE_BOX,302,23,345,82,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL
+    EDITTEXT        IDC_PLUG_TARGET_HOST,61,25,209,14,ES_AUTOHSCROLL
+    LTEXT           "目标主机: ",IDC_STATIC,17,29,41,8
+    GROUPBOX        "目标参数",IDC_STATIC,9,7,272,44
+    GROUPBOX        "交互窗口",IDC_STATIC,292,9,363,107
+    PUSHBUTTON      "参数字串",IDC_PLUG_PARAM_STR,107,233,61,25
+    PUSHBUTTON      "执行",IDC_PLUG_EXECUTE,188,233,64,25
+    PUSHBUTTON      "加载描述",IDC_PLUG_LOAD_DESC,26,233,61,26
+    GROUPBOX        "插件控制",IDC_STATIC,7,211,274,66
+    GROUPBOX        "执行结果",IDC_STATIC,292,122,362,154
+    CONTROL         "",IDC_PLUG_RESULT,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,301,140,344,129
+END
+
+IDD_SETTING_DLG DIALOGEX 0, 0, 309, 124
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,90,100,50,14
+    PUSHBUTTON      "取消",IDCANCEL,153,101,50,14
+    GROUPBOX        "代理设置",IDC_STATIC,9,5,291,43
+    EDITTEXT        IDC_PROXY_HOST,67,18,113,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PROXY_PORT,240,18,40,14,ES_AUTOHSCROLL
+    LTEXT           "代理服务器:",IDC_STATIC,19,21,44,8
+    LTEXT           "代理端口:",IDC_STATIC,194,20,36,8
+    GROUPBOX        "更新设置",IDC_STATIC,10,54,291,38
+    EDITTEXT        IDC_PROXY_HOST2,68,67,211,14,ES_AUTOHSCROLL
+    LTEXT           "更新服务器:",IDC_STATIC,20,70,44,8
+END
+
+IDD_CODE_AUDIT_VIEW DIALOGEX 0, 0, 668, 289
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "工程目录",IDC_STATIC,12,8,200,187
+    GROUPBOX        "审计结果",IDC_STATIC,222,6,434,269
+    GROUPBOX        "",IDC_STATIC,11,200,201,78
+    PUSHBUTTON      "导出报告",IDC_AUDIT_EXPORT_REPORT,115,245,77,21
+    CONTROL         "",IDC_AUDIT_PROJECT_TREE,"SysTreeView32",WS_BORDER | WS_HSCROLL | WS_TABSTOP,22,25,180,158
+    CONTROL         "",IDC_AUDIT_RESULT_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,231,26,416,239
+    PUSHBUTTON      "加载目录",IDC_AUDIT_LOAD_PROJECT,24,215,79,21
+    PUSHBUTTON      "开始审计",IDC_AUDIT_START_AUDIT,23,244,79,21
+    PUSHBUTTON      "停止审计",IDC_AUDIT_STOP_AUDIT,116,215,78,21
+END
+
+IDD_HTTP_DEBUG_VIEW DIALOGEX 0, 0, 668, 289
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_HTTP_REQUEST,23,24,297,169,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    GROUPBOX        "请求列表",IDC_STATIC,340,151,318,126
+    GROUPBOX        "请求",IDC_STATIC,11,10,320,198
+    GROUPBOX        "",IDC_STATIC,11,216,320,60
+    PUSHBUTTON      "开启/停止代理",IDC_HTTP_START_PROXY,26,238,136,21
+    CONTROL         "",IDC_HTTP_REQUEST_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,350,165,286,100
+    EDITTEXT        IDC_HTTP_RESPONSE,353,23,295,106,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    GROUPBOX        "响应",IDC_STATIC,341,10,317,132
+    PUSHBUTTON      "发送请求",IDC_HTTP_SEND_REQUEST,187,239,131,21
+END
+
+IDD_UPDATE_DLG DIALOGEX 0, 0, 309, 85
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "检查更新"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "更新",ID_UPDATE,91,57,50,14
+    PUSHBUTTON      "取消",IDCANCEL,153,57,50,14
+    GROUPBOX        "检查更新",-1,9,5,291,73
+    LTEXT           "正在连接服务器...",IDC_STATIC_STATE,21,42,264,8
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,21,21,265,14
+END
+
+IDD_ASSIS_TOOL_VIEW DIALOGEX 0, 0, 668, 289
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_ASSIS_SRC_STRING,23,24,311,113,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    GROUPBOX        "字符串编码转换",IDC_STATIC,11,10,337,269
+    EDITTEXT        IDC_ASSIS_DST_STRING,22,175,313,92,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    COMBOBOX        IDC_ASSIS_CONVERT_TYPE,73,150,113,76,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "编码选项:",IDC_STATIC,24,152,37,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "Shark"
+            VALUE "FileDescription", "WAEF"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "WAEF.exe"
+            VALUE "LegalCopyright", " (C) Shark。保留所有权利。"
+            VALUE "OriginalFilename", "WAEF.exe"
+            VALUE "ProductName", "Web App Exploitation Framework "
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_INFO_COLL_VIEW, DIALOG
+    BEGIN
+    END
+
+    IDD_WAEF_VIEW, DIALOG
+    BEGIN
+    END
+
+    IDD_WEAK_SCAN_VIEW, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 291
+    END
+
+    IDD_SITE_SPIDER_VIEW, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 291
+    END
+
+    IDD_WEAK_REPORT_VIEW, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 287
+    END
+
+    IDD_SESSION_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 364
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_SPLASH_DLG, DIALOG
+    BEGIN
+    END
+
+    IDD_DEEP_SCAN_VIEW, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 287
+    END
+
+    IDD_WAEF_PLUGIN_VIEW, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 287
+    END
+
+    IDD_SETTING_DLG, DIALOG
+    BEGIN
+    END
+
+    IDD_CODE_AUDIT_VIEW, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 287
+    END
+
+    IDD_HTTP_DEBUG_VIEW, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 287
+    END
+
+    IDD_UPDATE_DLG, DIALOG
+    BEGIN
+    END
+
+    IDD_ASSIS_TOOL_VIEW, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 287
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// SKIN
+//
+
+IDR_SKIN1               SKIN                    "res\\［X.o］-MSN.she"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 初始化失败。请确保 OLE 库是正确的版本。"
+    IDP_FAILED_OPEN_DATABASE "无法打开数据库。"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "WAEF\n\nWAEF\n\n\nWAEF.Document\nWAEF.Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "WAEF"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "用新名称保存活动文档\n另存为"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "显示程序信息、版本号和版权信息\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "打开此文档"
+    ID_FILE_MRU_FILE2       "打开此文档"
+    ID_FILE_MRU_FILE3       "打开此文档"
+    ID_FILE_MRU_FILE4       "打开此文档"
+    ID_FILE_MRU_FILE5       "打开此文档"
+    ID_FILE_MRU_FILE6       "打开此文档"
+    ID_FILE_MRU_FILE7       "打开此文档"
+    ID_FILE_MRU_FILE8       "打开此文档"
+    ID_FILE_MRU_FILE9       "打开此文档"
+    ID_FILE_MRU_FILE10      "打开此文档"
+    ID_FILE_MRU_FILE11      "打开此文档"
+    ID_FILE_MRU_FILE12      "打开此文档"
+    ID_FILE_MRU_FILE13      "打开此文档"
+    ID_FILE_MRU_FILE14      "打开此文档"
+    ID_FILE_MRU_FILE15      "打开此文档"
+    ID_FILE_MRU_FILE16      "打开此文档"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "清除所选内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制所选内容，将其放入剪贴板\n复制"
+    ID_EDIT_CUT             "剪切所选内容，将其放入剪贴板\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "重做上次撤消的操作\n重做"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n切换工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n切换状态栏"
+END
+
+STRINGTABLE
+BEGIN
+    ID_RECORD_FIRST         "移动到第一条记录\n第一条记录"
+    ID_RECORD_LAST          "移动到最后一条记录\n最后一条记录"
+    ID_RECORD_NEXT          "移动到下一条记录\n下一条记录"
+    ID_RECORD_PREV          "移动到上一条记录\n上一条记录"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "将窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到上一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INFO_VIEW            "信息收集\n信息收集"
+    ID_SPID_VIEW            "网站爬虫\n网站爬虫"
+    ID_SCAN_VIEW            "漏洞扫描\n漏洞扫描"
+    ID_REPT_VIEW            "扫描报告\n扫描报告"
+END
+
+STRINGTABLE
+BEGIN
+    ID_OTHE_VIEW            "综合扫描\n综合扫描"
+    ID_PLUG_VIEW            "插件面板\n插件面板"
+    ID_TOOL_VIEW            "辅助工具\n辅助工具"
+END
+
+STRINGTABLE
+BEGIN
+    ID_CHECK_UPDATE         "检查更新\n检查更新"
+    ID_SETTING_DLG          "选项设置\n选项设置"
+    ID_DEEP_VIEW            "深度检测\n深度检测"
+    ID_HTTP_DEBUG           "代理调试\n代理调试"
+    ID_AUDIT_VIEW           "代码审计\n代码审计"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#include "res\WAEF.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#include "l.CHS\afxdb.rc"        // 数据库资源
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

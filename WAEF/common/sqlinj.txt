@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<sql id="1" type="1">
+		<request id="1"> and 1=1-- -</request>
+		<request id="2"> and 1=2-- -</request>
+		<tezheng type="1">50</tezheng>
+	</sql>
+	<sql id="2" type="2">
+		<request id="1"> benchmark(1000,sha1(1111))</request>
+		<tezheng type="2">5000</tezheng>
+	</sql>
+</document>

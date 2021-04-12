@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Scan info page</title>
+<link href="SIStyle.css" rel="stylesheet" type="text/css" />
+<link href="SITextStyle.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript">
+  var imgExpand = new Image(8, 8);
+  imgExpand.src = "..\\..\\Graphics\\expand.gif";
+  var imgCollapse = new Image(8, 8);
+  imgCollapse.src = "..\\..\\Graphics\\collapse.gif";
+
+  function toggleNextNodeDisplay(img){
+    NN = img.parentNode.nextSibling;
+    if(NN){
+      if(NN.style.display=="none"){
+        NN.style.display="block";
+        img.src=imgCollapse.src;
+      } 
+      else {
+        NN.style.display="none";
+        img.src=imgExpand.src;
+      }
+    }
+  }
+</script>
+</head>
+<body>
+<div class="bodydiv">
+  <div id="divvulnerabilitysection">
+		<div style="height:36px; overflow: hidden">
+			<div class="sectionheadgrey" style="height:36px;">
+				<img src="./Graphics/ScanInfo/grey-u-l.gif" width="12" height="36" style="float:left"/>		
+			</div>
+			<div class="sectionheadtext" style="height:36px; width:100%; position:relative; top:-36px; white-space:nowrap; overflow:hidden">
+				<img src="./Graphics/transparent-dot.gif" width="16" height="1"/><img src="./Graphics/ScanInfo/vuln-chart.gif" width="16" height="16" vspace="4" align="absmiddle"/> 漏洞信息
+			</div>
+			<div style="height:36px; position:relative; top:-72px;">
+				<img src="./Graphics/ScanInfo/grey-u-r.gif" width="12" height="36" style="float:right"/>
+			</div>
+		</div>
+    <div class="infotext bgrey">
+      <div class="infotexttitle bgrey"> 漏洞报告</div>
+      <table border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="150" class="boldnavy">总计</td>
+          <td width="50" align="right" class="boldnavy monospacefont" id="tdtotalalerts">24</td>
+          <td width="212">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="150" class="boldred"><img src="./Graphics/vuln-red.png" width="16" height="16" hspace="6" vspace="2" align="absmiddle" />高危</td>
+          <td width="50" align="right" class="monospacefont" id="tdhighalerts">2</td>
+          <td width="212"><img src="./Graphics/ScanInfo/red-dot.gif" name="imghighmeter" width="20" height="15" hspace="6" id="imghighmeter" /></td>
+        </tr>
+        <tr>
+          <td width="150" class="boldorange"><img src="./Graphics/vuln-orange.png" width="16" height="16" hspace="6" vspace="2" align="absmiddle" />中危</td>
+          <td width="50" align="right" class="monospacefont" id="tdmediumalerts">10</td>
+          <td width="212"><img src="./Graphics/ScanInfo/orange-dot.gif" name="imgmediummeter" width="100" height="15" hspace="6" id="imgmediummeter" /></td>
+        </tr>
+        <tr>
+          <td width="150" class="boldgrey"><img src="./Graphics/vuln-blue.png" width="16" height="16" hspace="6" vspace="2" align="absmiddle" />低危</td>
+          <td width="50" align="right" class="monospacefont" id="tdlowlerts">5</td>
+          <td width="212"><img src="./Graphics/ScanInfo/blue-dot.gif" name="imglowmeter" width="50" height="15" hspace="6" id="imglowmeter" /></td>
+        </tr>
+        <tr>
+          <td width="150" class="boldgreen"><img src="./Graphics/vuln-green.png" width="16" height="16" hspace="6" vspace="2" align="absmiddle" />提醒</td>
+          <td width="50" align="right" class="monospacefont" id="tdinfoalerts">7</td>
+          <td width="212"><img src="./Graphics/ScanInfo/green-dot.gif" name="imginfometer" width="70" height="15" hspace="6" id="imginfometer" /></td>
+        </tr>
+      </table>
+    </div>
+    <div class="sectionfootgrey"> <img src="./Graphics/ScanInfo/grey-l-l.gif" width="12" height="18" style="float:left"/> <img src="./Graphics/ScanInfo/grey-l-r.gif" width="12" height="18" style="float:right"/> </div>
+  </div>
+  <!-------------------------------- SCAN --------------------------------------------->
+  <div id="divscansection">
+		<div style="height:36px; overflow: hidden">
+			<div class="sectionheadred" style="height:36px;">
+				<img src="./Graphics/ScanInfo/red-u-l.gif" width="12" height="36" style="float:left"/>		
+			</div>
+			<div class="sectionheadtext" style="height:36px; width:100%; position:relative; top:-36px; white-space:nowrap; overflow:hidden">
+				<img src="./Graphics/transparent-dot.gif" width="16" height="1"/><img src="./Graphics/ScanInfo/server-info.gif" width="16" height="16" vspace="4" align="absmiddle"/> ASP.NET padding oracle vulnerability
+			</div>
+			<div style="height:36px; position:relative; top:-72px;">
+				<img src="./Graphics/ScanInfo/red-u-r.gif" width="12" height="36" style="float:right"/>
+			</div>
+		</div>
+    <div class="infotext bred">
+      <div class="nonresponsive" id="divnonresponsive" style="display:none">Server not found!</div>
+      <span class="divscansectioninfo" id="divnonresponsive2" style="display:none">Make sure the address is spelled correctly and check your internet connection.</span>
+	  
+      <div id="divscansectioninfo">
+        <div class="infotexttitle bred">漏洞描述</div>
+        <div>
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="175" valign="top" class="lefttexts">路径</td>
+              <td valign="top" class="monospacefont" id="tdtargetname">/index.php?id=1</td>
+            </tr>
+            <tr>
+              <td width="175" valign="top" class="lefttexts">等级</td>
+              <td valign="top" class="monospacefont" id="tdserverbanner">高危</td>
+            </tr>
+          </table>
+        </div>
+        <div class="infotexttitle bred">漏洞证明</div>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="175" valign="top" class="lefttexts">Start time</td>
+            <td valign="top" class="monospacefont" id="tdstarttime">N/A</td>
+          </tr>
+          <tr>
+            <td width="175" valign="top" class="lefttexts">Scan iteration</td>
+            <td valign="top" class="monospacefont" id="tdscaniteration">1</td>
+          </tr>
+          <tr id="trcurrentmodule">
+            <td width="175" valign="top" class="lefttexts">Current module</td>
+            <td valign="top" class="monospacefont"><span id="tdcurmodule">N/A</span>&nbsp;<span style="display:none" id="spanSkipModule"><a href="#Skip_Current_Module">skip</a></span></td>
+          </tr>		 
+    		  <tr id="trmoduleprogress">
+            <td width="175" valign="top" class="lefttexts">Module progress</td>
+            <td valign="middle">
+              <div class="divProgressBorder"><img src="./Graphics/ScanInfo/progress-img.gif" width="60" height="10" id="imgmoduleprogress"/></div>&nbsp;
+              <div class="monospacefont" id="divProgressText" style="display:inline"></div>
+            </td>            
+          </tr>
+        </table>
+        <div id="divPortScanProgress">
+          <div class="infotexttitle bred">漏洞细节</div>
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr id="trPortScanProgress">
+              <td width="175" valign="top" class="lefttexts">Progress</td>
+              <td valign="middle">
+                <div class="divProgressBorder"><img src="./Graphics/ScanInfo/progress-img.gif" width="50" height="10" id="imgPortScanProgress"/></div>&nbsp;
+                <div class="monospacefont" id="divProgressTextPortScan" style="display:inline"></div>
+              </td>
+            </tr>
+            <tr>
+              <td width="175" valign="top" class="lefttexts">Open ports</td>
+              <td valign="top" class="monospacefont" id="tdOpenPorts">N/A</td>
+            </tr>
+          </table>
+        </div>
+        <div id="divScriptsProgress">
+          <div class="infotexttitle bred">修复方案</div>
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr id="trScriptsProgress">
+              <td width="175" valign="top" class="lefttexts">Progress</td>
+              <td valign="middle">
+                <div class="divProgressBorder"><img src="./Graphics/ScanInfo/progress-img.gif" width="0" height="10" id="imgScriptsProgress"/></div>&nbsp;
+                <div class="monospacefont" id="divProgressTextScripts" style="display:inline"></div>
+              </td>
+            </tr>
+            <tr>
+              <td width="175" valign="top" class="lefttexts">Running scripts</td>
+              <td valign="top" class="monospacefont" id="tdRunningScripts">N/A</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="sectionfootred"> <img src="./Graphics/ScanInfo/red-l-l.gif" width="12" height="18" style="float:left"/> <img src="./Graphics/ScanInfo/red-l-r.gif" width="12" height="18" style="float:right"/> </div>
+  </div>
+
+
+  <div id="divscansection">
+		<div style="height:36px; overflow: hidden">
+			<div class="sectionheadgreen" style="height:36px;">
+				<img src="./Graphics/ScanInfo/green-u-l.gif" width="12" height="36" style="float:left"/>		
+			</div>
+			<div class="sectionheadtext" style="height:36px; width:100%; position:relative; top:-36px; white-space:nowrap; overflow:hidden">
+				<img src="./Graphics/transparent-dot.gif" width="16" height="1"/><img src="./Graphics/ScanInfo/server-info.gif" width="16" height="16" vspace="4" align="absmiddle"/> Email地址泄露
+			</div>
+			<div style="height:36px; position:relative; top:-72px;">
+				<img src="./Graphics/ScanInfo/green-u-r.gif" width="12" height="36" style="float:right"/>
+			</div>
+		</div>
+    <div class="infotext bgreen">
+      <div class="nonresponsive" id="divnonresponsive" style="display:none">Server not found!</div>
+      <span class="divscansectioninfo" id="divnonresponsive2" style="display:none">Make sure the address is spelled correctly and check your internet connection.</span>
+	  
+      <div id="divscansectioninfo">
+        <div class="infotexttitle bgreen">漏洞描述</div>
+        <div>
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="175" valign="top" class="lefttexts">路径</td>
+              <td valign="top" class="monospacefont" id="tdtargetname">/index.php?id=1</td>
+            </tr>
+            <tr>
+              <td width="175" valign="top" class="lefttexts">等级</td>
+              <td valign="top" class="monospacefont" id="tdserverbanner">高危</td>
+            </tr>
+          </table>
+        </div>
+        <div class="infotexttitle bgreen">漏洞证明</div>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="175" valign="top" class="lefttexts">Start time</td>
+            <td valign="top" class="monospacefont" id="tdstarttime">N/A</td>
+          </tr>
+          <tr>
+            <td width="175" valign="top" class="lefttexts">Scan iteration</td>
+            <td valign="top" class="monospacefont" id="tdscaniteration">1</td>
+          </tr>
+          <tr id="trcurrentmodule">
+            <td width="175" valign="top" class="lefttexts">Current module</td>
+            <td valign="top" class="monospacefont"><span id="tdcurmodule">N/A</span>&nbsp;<span style="display:none" id="spanSkipModule"><a href="#Skip_Current_Module">skip</a></span></td>
+          </tr>		 
+    		  <tr id="trmoduleprogress">
+            <td width="175" valign="top" class="lefttexts">Module progress</td>
+            <td valign="middle">
+              <div class="divProgressBorder"><img src="./Graphics/ScanInfo/progress-img.gif" width="60" height="10" id="imgmoduleprogress"/></div>&nbsp;
+              <div class="monospacefont" id="divProgressText" style="display:inline"></div>
+            </td>            
+          </tr>
+        </table>
+        <div id="divPortScanProgress">
+          <div class="infotexttitle bgreen">漏洞细节</div>
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr id="trPortScanProgress">
+              <td width="175" valign="top" class="lefttexts">Progress</td>
+              <td valign="middle">
+                <div class="divProgressBorder"><img src="./Graphics/ScanInfo/progress-img.gif" width="50" height="10" id="imgPortScanProgress"/></div>&nbsp;
+                <div class="monospacefont" id="divProgressTextPortScan" style="display:inline"></div>
+              </td>
+            </tr>
+            <tr>
+              <td width="175" valign="top" class="lefttexts">Open ports</td>
+              <td valign="top" class="monospacefont" id="tdOpenPorts">N/A</td>
+            </tr>
+          </table>
+        </div>
+        <div id="divScriptsProgress">
+          <div class="infotexttitle bgreen">修复方案</div>
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr id="trScriptsProgress">
+              <td width="175" valign="top" class="lefttexts">Progress</td>
+              <td valign="middle">
+                <div class="divProgressBorder"><img src="./Graphics/ScanInfo/progress-img.gif" width="0" height="10" id="imgScriptsProgress"/></div>&nbsp;
+                <div class="monospacefont" id="divProgressTextScripts" style="display:inline"></div>
+              </td>
+            </tr>
+            <tr>
+              <td width="175" valign="top" class="lefttexts">Running scripts</td>
+              <td valign="top" class="monospacefont" id="tdRunningScripts">N/A</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="sectionfootgreen"> <img src="./Graphics/ScanInfo/green-l-l.gif" width="12" height="18" style="float:left"/> <img src="./Graphics/ScanInfo/green-l-r.gif" width="12" height="18" style="float:right"/> </div>
+  </div>
+
+</div>
+</body>
+</html>

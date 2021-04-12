@@ -1,0 +1,75 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.bodydiv {
+	padding: 12px;
+}
+
+.boldred {
+	font-weight: bold;
+	color: #e01010;
+}
+
+.boldorange {
+	font-weight: bold;
+	color: #f67f00;
+}
+
+.boldblue {
+	font-weight: bold;
+	color: #1454b1;
+}
+
+.boldgreen {
+	font-weight: bold;
+	color: #126f1e;
+}
+
+.boldnavy {
+	font-weight: bold;
+	color: navy;
+}
+
+.monospacefont {
+	font-family: "Courier New", Courier, mono;
+}
+
+.scanname {
+	font-size: 17px;
+	color: white;
+	background-color: #f0f0f0; 
+	font-weight: bold;
+	height: 28px;
+	overflow: hidden;
+	background-image: url(./Graphics/ScanInfo/bg-scanname.gif);
+	background-repeat: repeat-x;	
+}
+
+.scannamebrd {
+	border-bottom: 2px solid #004da0;
+}
+
+.nonresponsive {
+	font-weight: bold;
+	font-size: 16px;
+	color: #e01010;
+	padding-bottom: 6px;
+}
+
+.lefttexts {
+	color: navy;
+}
+
+h2 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 5px;	
+}
+
+p {
+	margin-top: 9px;
+	margin-bottom: 9px;	
+}

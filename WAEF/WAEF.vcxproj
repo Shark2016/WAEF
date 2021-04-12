@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{75B9F4E8-B504-4F0F-A165-D59935C8DE62}</ProjectGuid>
+    <RootNamespace>WAEF</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <SourcePath>$(SourcePath)</SourcePath>
+    <IncludePath>D:/boost_1_55_0;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\boost_1_55_0\stage\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions);CURL_STATICLIB</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)libcurl\inc;$(ProjectDir)tinyxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>msdasc.lib;%(AdditionalDependencies);libcurl.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)libcurl\lib</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)libcurl\inc;$(ProjectDir)tinyxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>msdasc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AssisToolMdl.h" />
+    <ClInclude Include="AssisToolView.h" />
+    <ClInclude Include="CodeAuditMdl.h" />
+    <ClInclude Include="CodeAuditView.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="DeepScanMdl.h" />
+    <ClInclude Include="DeepScanView.h" />
+    <ClInclude Include="ExploitModule.h" />
+    <ClInclude Include="HttpDebugMdl.h" />
+    <ClInclude Include="HttpDebugView.h" />
+    <ClInclude Include="HttpProxy.h" />
+    <ClInclude Include="InfoCollMdl.h" />
+    <ClInclude Include="InfoCollView.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="NetSpider.h" />
+    <ClInclude Include="plugin.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SettingDlg.h" />
+    <ClInclude Include="SiteSpiderMdl.h" />
+    <ClInclude Include="SplashDlg.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ToolMdl.h" />
+    <ClInclude Include="UpdateDlg.h" />
+    <ClInclude Include="WAEF.h" />
+    <ClInclude Include="WAEFHtmlView.h" />
+    <ClInclude Include="WAEFSet.h" />
+    <ClInclude Include="WAEFView.h" />
+    <ClInclude Include="SiteSpiderView.h" />
+    <ClInclude Include="WeakPluginMdl.h" />
+    <ClInclude Include="WeakPluginView.h" />
+    <ClInclude Include="WeakReportMdl.h" />
+    <ClInclude Include="WeakReportView.h" />
+    <ClInclude Include="WeakScanMdl.h" />
+    <ClInclude Include="WeakScanView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssisToolMdl.cpp" />
+    <ClCompile Include="AssisToolView.cpp" />
+    <ClCompile Include="CodeAuditMdl.cpp" />
+    <ClCompile Include="CodeAuditView.cpp" />
+    <ClCompile Include="DeepScanMdl.cpp" />
+    <ClCompile Include="DeepScanView.cpp" />
+    <ClCompile Include="ExploitModule.cpp" />
+    <ClCompile Include="HttpDebugMdl.cpp" />
+    <ClCompile Include="HttpDebugView.cpp" />
+    <ClCompile Include="HttpProxy.cpp" />
+    <ClCompile Include="InfoCollMdl.cpp" />
+    <ClCompile Include="InfoCollView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="NetSpider.cpp" />
+    <ClCompile Include="plugin.cpp" />
+    <ClCompile Include="SettingDlg.cpp" />
+    <ClCompile Include="SiteSpiderMdl.cpp" />
+    <ClCompile Include="SplashDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinystr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxml.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ToolMdl.cpp" />
+    <ClCompile Include="UpdateDlg.cpp" />
+    <ClCompile Include="WAEF.cpp" />
+    <ClCompile Include="WAEFDoc.cpp" />
+    <ClCompile Include="WAEFHtmlView.cpp" />
+    <ClCompile Include="WAEFSet.cpp" />
+    <ClCompile Include="WAEFView.cpp" />
+    <ClCompile Include="SiteSpiderView.cpp" />
+    <ClCompile Include="WeakPluginMdl.cpp" />
+    <ClCompile Include="WeakPluginView.cpp" />
+    <ClCompile Include="WeakReportMdl.cpp" />
+    <ClCompile Include="WeakReportView.cpp" />
+    <ClCompile Include="WeakScanMdl.cpp" />
+    <ClCompile Include="WeakScanView.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WAEF.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\resource\图标\dreamware\skin1.bin" />
+    <None Include="..\..\..\..\..\..\resource\图标\dreamware\skin2.bin" />
+    <None Include="res\WAEF.rc2" />
+    <None Include="res\［X.o］-MSN.she" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\..\Resource\图标\0002.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\0014.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\0017.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\1000.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\273.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\4000.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\Dreamware\433.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\Dreamware\434.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\Dreamware\451.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\Dreamware\452.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\Dreamware\453.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\Dreamware\455.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\Dreamware\456.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\Dreamware\457.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\Dreamware\458.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\Dreamware\459.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\Dreamware\460.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\Dreamware\461.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\Dreamware\462.ico" />
+    <Image Include="..\..\..\..\..\..\Resource\图标\Dreamware\463.ico" />
+    <Image Include="..\..\..\..\..\..\resource\图标\dreamware\ico00001.ico" />
+    <Image Include="..\..\..\..\..\..\resource\图标\dreamware\ico00002.ico" />
+    <Image Include="..\..\..\..\..\..\resource\图标\dreamware\icon2.ico" />
+    <Image Include="..\..\..\..\..\..\resource\图标\dreamware\icon3.ico" />
+    <Image Include="..\..\..\..\..\..\resource\图标\dreamware\icon_gre.ico" />
+    <Image Include="..\..\..\..\..\..\resource\图标\ico00001.ico" />
+    <Image Include="..\..\..\..\..\..\resource\图标\ico00002.ico" />
+    <Image Include="..\..\..\..\..\..\resource\图标\ico00003.ico" />
+    <Image Include="..\..\..\..\..\..\resource\图标\icon1.ico" />
+    <Image Include="..\..\..\..\..\..\resource\图标\icon2.ico" />
+    <Image Include="c:\Users\Administrator\Desktop\无标题.bmp" />
+    <Image Include="c:\Users\Administrator\Desktop\无标题.png" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\vuln-green.png" />
+    <Image Include="res\vuln-orange.png" />
+    <Image Include="res\vuln-red.png" />
+    <Image Include="res\WAEF.ico" />
+    <Image Include="res\WAEFDoc.ico" />
+    <Image Include="res\无标题.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="WAEF.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

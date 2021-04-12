@@ -1,0 +1,1200 @@
+<path type=2 path="/robots.txt">
+	<sign type=2 keyword="discuz">Discuz</sign>
+	<sign type=2 keyword="emlog">Emlog</sign>
+	<sign type=2 keyword="empirecms">EmpireCMS</sign>
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+	<sign type=2 keyword="joomla">Joomla</sign>
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+	<sign type=2 keyword="wordpress">WordPress</sign>
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+	<sign type=2 keyword="forum.php?mod=">Discuz</sign>
+	<sign type=2 keyword="/?q=user/password/">Drupal</sign>
+</path>
+<path type=2 path="/company/template/default/search_list.htm">
+	<sign type=2 keyword="dedecms">DedeCMS</sign>
+</path>
+<path type=2 path="/templets/default/style/dedecms.css">
+	<sign type=2 keyword="dedecms">DedeCMS</sign>
+</path>
+<path type=2 path="/template/default/common/common.css">
+	<sign type=2 keyword="discuz">Discuz</sign>
+</path>
+<path type=2 path="/uc_server/view/default/admin_frame_main.htm">
+	<sign type=2 keyword="discuz">Discuz</sign>
+</path>
+<path type=2 path="/e/data/fc/index.html">
+	<sign type=2 keyword="empirecms">EmpireCMS</sign>
+</path>
+<path type=2 path="/e/data/template/gbooktemp.txt">
+	<sign type=2 keyword="empirecms">EmpireCMS</sign>
+</path>
+<path type=2 path="/admin/js/validator.js">
+	<sign type=2 keyword="ecshop">Ecshop</sign>
+</path>
+<path type=2 path="/themes/default/style.css">
+	<sign type=2 keyword="ecshop">Ecshop</sign>
+</path>
+<path type=2 path="/phpcms/templates/default/wap/header.html">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/phpsso_server/statics/js/formvalidator.js">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/statics/js/cookie.js">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/Admin/Include/version.xml">
+	<sign type=2 keyword="kesioncms">KesionCMS</sign>
+</path>
+<path type=2 path="/KS_Inc/ajax.js">
+	<sign type=2 keyword="kesioncms">KesionCMS</sign>
+</path>
+<path type=2 path="/admin/inc/admin.js">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/admin/left.htm">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/data/index.html">
+	<sign type=2 keyword="dedecms">DedeCMS</sign>
+</path>
+<path type=2 path="/data/js/index.html">
+	<sign type=2 keyword="dedecms">DedeCMS</sign>
+</path>
+<path type=2 path="/data/mytag/index.html">
+	<sign type=2 keyword="dedecms">DedeCMS</sign>
+</path>
+<path type=2 path="/data/sessions/index.html">
+	<sign type=2 keyword="dedecms">DedeCMS</sign>
+</path>
+<path type=2 path="/data/textdata/index.html">
+	<sign type=2 keyword="dedecms">DedeCMS</sign>
+</path>
+<path type=2 path="/plug/comment.html">
+	<sign type=2 keyword="aspcms">AspCMS</sign>
+</path>
+<path type=2 path="/install/">
+	<sign type=2 keyword="aspcms">AspCMS</sign>
+</path>
+<path type=2 path="/about/_notes/dwsync.xml">
+	<sign type=2 keyword="aspcms">AspCMS</sign>
+</path>
+<path type=2 path="/admin/_Style/_notes/dwsync.xml">
+	<sign type=2 keyword="aspcms">AspCMS</sign>
+</path>
+<path type=2 path="/apply/_notes/dwsync.xml">
+	<sign type=2 keyword="aspcms">AspCMS</sign>
+</path>
+<path type=2 path="/config/_notes/dwsync.xml">
+	<sign type=2 keyword="aspcms">AspCMS</sign>
+</path>
+<path type=2 path="/fckeditor/fckconfig.js">
+	<sign type=2 keyword="aspcms">AspCMS</sign>
+</path>
+<path type=2 path="/gbook/_notes/dwsync.xml">
+	<sign type=2 keyword="aspcms">AspCMS</sign>
+</path>
+<path type=2 path="/inc/_notes/dwsync.xml">
+	<sign type=2 keyword="aspcms">AspCMS</sign>
+</path>
+<path type=2 path="/data/admin/allowurl.txt">
+	<sign type=2 keyword="dedecms">DedeCMS</sign>
+</path>
+<path type=2 path="/source/plugin/myapp/discuz_plugin_myapp.xml">
+	<sign type=2 keyword="discuz">Discuz</sign>
+</path>
+<path type=2 path="/static/js/admincp.js">
+	<sign type=2 keyword="discuz">Discuz</sign>
+</path>
+<path type=2 path="/MAINTAINERS">
+	<sign type=2 keyword="drupal">Drupal</sign>
+</path>
+<path type=2 path="/themes/bartik/color/preview.js">
+	<sign type=2 keyword="drupal">Drupal</sign>
+</path>
+<path type=2 path="/scripts/test.script">
+	<sign type=2 keyword="drupal">Drupal</sign>
+</path>
+<path type=2 path="/modules/user/user.info">
+	<sign type=2 keyword="drupal">Drupal</sign>
+</path>
+<path type=2 path="/misc/ajax.js">
+	<sign type=2 keyword="drupal">Drupal</sign>
+</path>
+<path type=2 path="/modules/legacy/legacy.info">
+	<sign type=2 keyword="drupal">Drupal</sign>
+</path>
+<path type=2 path="/Admin/images/admin.js">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/boke/CacheFile/System.config">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/boke/Script/Dv_form.js">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/boke/Skins/Default/xml/index.xslt">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/boke/Skins/dvskin/xml/index.xslt">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Css/aqua/style.css">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Css/cndw/pub_cndw.css">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Css/gray/style.css">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Css/green/pub_cndw_green.css">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Css/red/style.css">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Css/yellow/style.css">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Data/sitemap_cache.xml">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/dv_edit/main.js">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Dv_ForumNews/Temp_Dv_ForumNews.config">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Dv_plus/IndivGroup/js/Dv_form.js">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Dv_plus/IndivGroup/Skin/Dispbbs.xslt">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Dv_plus/myspace/drag/space.js">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Dv_plus/myspace/script/fuc_setting.xslt">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/images/manage/admin.js">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/images/post/DhtmlEdit.js">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/inc/Admin_transformxhml.xslt">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/inc/Templates/bbsinfo.xml">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Plus_popwan/CacheFile/sn.config">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Resource/Admin/pub_html1.htm">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Resource/Classical/boardhelp_html4.htm">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Resource/Format_Fuc.xslt">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Resource/Template_1/boardhelp_html4.htm">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/Skins/aspsky_1.css">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/skins/classical.css">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/skins/myspace/default01/demo.htm">
+	<sign type=2 keyword="dvbbs">Dvbbs</sign>
+</path>
+<path type=2 path="/admin/help/zh_cn/database.xml">
+	<sign type=2 keyword="ecshop">Ecshop</sign>
+</path>
+<path type=2 path="/js/transport.js">
+	<sign type=2 keyword="ecshop">Ecshop</sign>
+</path>
+<path type=2 path="/wlwmanifest.xml">
+	<sign type=2 keyword="emlog">Emlog</sign>
+</path>
+<path type=2 path="/content/cache/links">
+	<sign type=2 keyword="emlog">Emlog</sign>
+</path>
+<path type=2 path="/content/cache/options">
+	<sign type=2 keyword="emlog">Emlog</sign>
+</path>
+<path type=2 path="/content/cache/blogger">
+	<sign type=2 keyword="emlog">Emlog</sign>
+</path>
+<path type=2 path="/admin/views/default/main.css">
+	<sign type=2 keyword="emlog">Emlog</sign>
+</path>
+<path type=2 path="/admin/views/style/default/style.css">
+	<sign type=2 keyword="emlog">Emlog</sign>
+</path>
+<path type=2 path="/admin/views/style/green/style.css">
+	<sign type=2 keyword="emlog">Emlog</sign>
+</path>
+<path type=2 path="/content/templates/default/main.css">
+	<sign type=2 keyword="emlog">Emlog</sign>
+</path>
+<path type=2 path="/content/templates/default/tpl.ini">
+	<sign type=2 keyword="emlog">Emlog</sign>
+</path>
+<path type=2 path="/e/admin/adminstyle/1/page/about.htm">
+	<sign type=2 keyword="empirecms">EmpireCMS</sign>
+</path>
+<path type=2 path="/e/data/ecmseditor/images/blank.html">
+	<sign type=2 keyword="empirecms">EmpireCMS</sign>
+</path>
+<path type=2 path="/e/extend/index.html">
+	<sign type=2 keyword="empirecms">EmpireCMS</sign>
+</path>
+<path type=2 path="/e/tasks/index.html">
+	<sign type=2 keyword="empirecms">EmpireCMS</sign>
+</path>
+<path type=2 path="/e/tool/feedback/temp/test.txt">
+	<sign type=2 keyword="empirecms">EmpireCMS</sign>
+</path>
+<path type=2 path="/search/index.html">
+	<sign type=2 keyword="empirecms">EmpireCMS</sign>
+</path>
+<path type=2 path="/license.txt">
+	<sign type=2 keyword="espcms">EspCMS</sign>
+</path>
+<path type=2 path="/">
+	<sign type=2 keyword="espcms">EspCMS</sign>
+</path>
+<path type=2 path="/adminsoft/control/connected.php">
+	<sign type=2 keyword="espcms">EspCMS</sign>
+</path>
+<path type=2 path="/adminsoft/control/sqlmanage.php">
+	<sign type=2 keyword="espcms">EspCMS</sign>
+</path>
+<path type=2 path="/adminsoft/include/admin_language_cn.php">
+	<sign type=2 keyword="espcms">EspCMS</sign>
+</path>
+<path type=2 path="/adminsoft/js/control.js">
+	<sign type=2 keyword="espcms">EspCMS</sign>
+</path>
+<path type=2 path="/install/lan_inc.php">
+	<sign type=2 keyword="espcms">EspCMS</sign>
+</path>
+<path type=2 path="/install/sys_inc.php">
+	<sign type=2 keyword="espcms">EspCMS</sign>
+</path>
+<path type=2 path="/public/class_dbmysql.php">
+	<sign type=2 keyword="espcms">EspCMS</sign>
+</path>
+<path type=2 path="/templates/wap/cn/public/footer.html">
+	<sign type=2 keyword="espcms">EspCMS</sign>
+</path>
+<path type=2 path="/templates/wap/en/public/footer.html">
+	<sign type=2 keyword="espcms">EspCMS</sign>
+</path>
+<path type=2 path="/Index.html">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/Apsearch.html">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/search.html">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/Tags.html">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/Admin/Collect/vssver2.scc">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/Admin/FreeLabel/vssver2.scc">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/Admin/News/images/vssver2.scc">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/Admin/News/lib/vssver2.scc">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/Admin/PublicSite/vssver2.scc">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/down/index.html">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/Foosun/Admin/Mall/Mall_Factory.asp">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/FS_Inc/vssver2.scc">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/FS_InterFace/vssver2.scc">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/manage/collect/MasterPage_Site.master">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/Templets/about/index.htm">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/Templets/pro/cms.htm">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/User/contr/lib/vssver2.scc">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/Users/All_User.Asp">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/Users/Mall/OrderPrint.Asp">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/xml/products/dotnetcmsversion.xml">
+	<sign type=2 keyword="foosuncms">FoosunCMS</sign>
+</path>
+<path type=2 path="/js/api.js">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/js/editor/editor.js">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/js/hdeditor/hdeditor.min.js">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/js/hdeditor/skins/content.css">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/js/jqeditor/hdwiki.js">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/js/jqeditor/skins/content_default.css">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/plugins/hdapi/view/admin_hdapi.htm">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/plugins/mwimport/desc.xml">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/plugins/mwimport/view/admin_mwimport.htm">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/plugins/ucenter/view/admin_ucenter.htm">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/style/aoyun/hdwiki.css">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/style/default/admin/admin.css">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/style/default/desc.xml">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/view/default/admin_addlink.htm">
+	<sign type=2 keyword="hdwiki">HdWiki</sign>
+</path>
+<path type=2 path="/phpunit.xml.dist">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/joomla.xml">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/web.config.txt">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/administrator/components/com_login/login.xml">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/components/com_mailto/views/sent/metadata.xml">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/components/com_wrapper/wrapper.xml">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/libraries/joomla/filesystem/meta/language/en-GB/en-GB.lib_joomla_filesystem_patcher.ini">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/libraries/joomla/html/language/en-GB/en-GB.jhtmldate.ini">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/media/com_finder/js/indexer.js">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/media/com_joomlaupdate/default.js">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/media/editors/tinymce/templates/template_list.js">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/media/jui/css/chosen.css">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/modules/mod_banners/mod_banners.xml">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/plugins/authentication/joomla/joomla.xml">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/templates/atomic/css/template.css">
+	<sign type=2 keyword="joomla">Joomla</sign>
+</path>
+<path type=2 path="/Space/js/ks.space.page.js">
+	<sign type=2 keyword="kesioncms">KesionCMS</sign>
+</path>
+<path type=2 path="/template/common/activecode.html">
+	<sign type=2 keyword="kesioncms">KesionCMS</sign>
+</path>
+<path type=2 path="/install.sql">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/install.php">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/INSTALL.php">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/License.txt">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/ad.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/admin.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/collect.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/counter.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/create.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/INSTALL.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/link.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/login.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/main.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/menu.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/template.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/user.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/webftp.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/ad/index.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/admin/Article/index.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/admin/system/create.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/admin/webftp/index.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/api/alipay.php">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/Article/index.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/block/core.class.php">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/collect/index.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/comment/index.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/dbquery/core.class.php">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/dbquery/language/zh-cn.xml">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/download/index.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/EasyArticle/index.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/feedback/core.class.php">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/images/style.css">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/inc/config.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/language/zh-cn.xml">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/library/template.class.php">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/link/index.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/movie/index.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/onepage/index.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/page/addlink.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/page/system/inc/fun.js">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/page/Tools/fun.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/page/webftp/fun.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/passport/index.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/system/images/fun.js">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/system/js/jquery.kc.js">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/template/default.htm">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/Tools/index.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/user/index.php">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/webftp/index.asp">
+	<sign type=2 keyword="kingcms">KingCMS</sign>
+</path>
+<path type=2 path="/">
+	<sign type=2 keyword="liangjing">liangjing</sign>
+</path>
+<path type=2 path="/Global.asax">
+	<sign type=2 keyword="ljcms">LjCMS</sign>
+</path>
+<path type=2 path="/Web.config">
+	<sign type=2 keyword="ljcms">LjCMS</sign>
+</path>
+<path type=2 path="/Admin/MasterPage/Default.Master">
+	<sign type=2 keyword="ljcms">LjCMS</sign>
+</path>
+<path type=2 path="/ashx/comment.ashx">
+	<sign type=2 keyword="ljcms">LjCMS</sign>
+</path>
+<path type=2 path="/Ch/Index.asp">
+	<sign type=2 keyword="ljcms">LjCMS</sign>
+</path>
+<path type=2 path="/En/Index.asp">
+	<sign type=2 keyword="ljcms">LjCMS</sign>
+</path>
+<path type=2 path="/en/Module/AboutDetail.ascx">
+	<sign type=2 keyword="ljcms">LjCMS</sign>
+</path>
+<path type=2 path="/Html_skin30/downclass_29_1.html">
+	<sign type=2 keyword="ljcms">LjCMS</sign>
+</path>
+<path type=2 path="/HtmlAspx/ascx/CreateOrder.ascx">
+	<sign type=2 keyword="ljcms">LjCMS</sign>
+</path>
+<path type=2 path="/Master/default.Master">
+	<sign type=2 keyword="ljcms">LjCMS</sign>
+</path>
+<path type=2 path="/Module/AboutDetail.ascx">
+	<sign type=2 keyword="ljcms">LjCMS</sign>
+</path>
+<path type=2 path="/T/skin01/enindex.html">
+	<sign type=2 keyword="ljcms">LjCMS</sign>
+</path>
+<path type=2 path="/T/skin05/about.html">
+	<sign type=2 keyword="ljcms">LjCMS</sign>
+</path>
+<path type=2 path="/Enrss.xml">
+	<sign type=2 keyword="liangjing">liangjing</sign>
+</path>
+<path type=2 path="/Ch/Memberphoto.asp">
+	<sign type=2 keyword="liangjing">liangjing</sign>
+</path>
+<path type=2 path="/En/Foot.asp">
+	<sign type=2 keyword="liangjing">liangjing</sign>
+</path>
+<path type=2 path="/Html_skin30/enabout.html">
+	<sign type=2 keyword="liangjing">liangjing</sign>
+</path>
+<path type=2 path="/readme.txt">
+	<sign type=2 keyword="php168">PHP168</sign>
+</path>
+<path type=2 path="/ckeditor/plugins/gallery/plugin.js">
+	<sign type=2 keyword="php168">PHP168</sign>
+</path>
+<path type=2 path="/cms/install/index.html">
+	<sign type=2 keyword="php168">PHP168</sign>
+</path>
+<path type=2 path="/ewebeditor/KindEditor.js">
+	<sign type=2 keyword="php168">PHP168</sign>
+</path>
+<path type=2 path="/hack/cnzz/template/menu.htm">
+	<sign type=2 keyword="php168">PHP168</sign>
+</path>
+<path type=2 path="/help/main.html">
+	<sign type=2 keyword="php168">PHP168</sign>
+</path>
+<path type=2 path="/images/dialog.css">
+	<sign type=2 keyword="php168">PHP168</sign>
+</path>
+<path type=2 path="/js/util.js">
+	<sign type=2 keyword="php168">PHP168</sign>
+</path>
+<path type=2 path="/plugin/qqconnect/bind.html">
+	<sign type=2 keyword="php168">PHP168</sign>
+</path>
+<path type=2 path="/skin/admin/style.css">
+	<sign type=2 keyword="php168">PHP168</sign>
+</path>
+<path type=2 path="/template/admin/ask/config.html">
+	<sign type=2 keyword="php168">PHP168</sign>
+</path>
+<path type=2 path="/phpcms/templates/default/member/connect.html">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/comment/include/js/comment.js">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/data/js/config.js">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/editor/js/editor.js">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/images/js/admin.js">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/page/aboutus.html">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/space/images/js/space.js">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/special/type/dev.html">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/yp/images/js/global.js">
+	<sign type=2 keyword="phpcms">phpCMS</sign>
+</path>
+<path type=2 path="/recommend.html">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/AUTHORS">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/humans.txt">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/LICENSE">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/wind/readme">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/wind/http/mime/mime">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/conf/md5sum">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/aCloud/index.html">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/admin/safefiles.md5">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/api/agent.html">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/apps/diary/template/m_diary_bottom.htm">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/apps/groups/template/m_header.htm">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/apps/stopic/template/stopic.htm">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/apps/weibo/template/m_weibo_bottom.htm">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/connexion/template/custom_weibo_template.htm">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/data/lang/zh_cn.js">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/hack/app/info.xml">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/html/js/index.html">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/js/magic.js">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/lang/wind/admin/admin.htm">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/m/template/footer.htm">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/mode/area/js/adminview.js">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/phpwind/lang/wind/admin/admin.htm">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/phpwind/licence.txt">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/res/css/admin_layout.css">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/src/extensions/demo/Manifest.xml">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/src/extensions/demo/resource/editorApp.js">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/styles/english/template/admin_english/admin.htm">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/template/config/admin/config_run.htm">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/themes/forum/default/css/dev/forum.css">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/u/themes/default/footer.htm">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/windid/res/css/admin_layout.css">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/windid/res/js/dev/pages/admin/auth_manage.js">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/windid/res/js/dev/wind.js">
+	<sign type=2 keyword="phpwind">PHPWind</sign>
+</path>
+<path type=2 path="/License.txt">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Web.config">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/rss.xsl">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/RSS.xsl">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/JS/checklogin.js">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Temp/ajaxnote.txt">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/User/PopCalendar.js">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/xml/xml.xsl">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Admin/MasterPage.master">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/API/Request.xml">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/App_GlobalResources/CacheResources.resx">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Config/AjaxHandler.config">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Controls/AttachFieldControl.ascx">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Admin/Common/HelpLinks.xml">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Admin/JS/AdminIndex.js">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Controls/Company/Company.ascx">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Database/SiteWeaver.sql">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Editor/Lable/PE_Annouce.htm">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Editor/plugins/pastefromword/dialogs/pastefromword.js">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Language/Gb2312.xml">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Skin/OceanStar/default.css">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Skin/OceanStar/user/default.css">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Space/Template/sealove/index.xsl">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Template/Default/Skin/default.css">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/Template/Default/Skin/user/default.css">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/User/Accessories/AvatarUploadHandler.ashx">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/wap/Language/Gb2312.xml">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/WebServices/CategoryService.asmx">
+	<sign type=2 keyword="powereasy">PowerEasy</sign>
+</path>
+<path type=2 path="/admin/template/article_more/config.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/admin/template/blend/set.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/admin/template/center/config.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/admin/template/cutimg/cutimg.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/admin/template/foot.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/admin/template/fu_sort/editsort.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/admin/template/html/set.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/admin/template/label/article.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/admin/template/label/maketpl/1.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/admin/template/module/make.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/admin/template/mysql/into.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/admin/template/sort/editsort.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/form/admin/template/label/form.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/guestbook/admin/template/label/guestbook.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/hack/cnzz/template/ask.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/hack/gather/template/addrulesql.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/hack/upgrade/template/get.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/member/template/blue/foot.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/member/template/default/homepage.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/template/default/cutimg.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/template/special/showsp2.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/wap/template/foot.htm">
+	<sign type=2 keyword="qiboSoft">qiboSoft</sign>
+</path>
+<path type=2 path="/">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/Web.config">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/LiveServer/Configuration/UrlRewrite.config">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/LiveServer/Inc/html_head.inc">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/SiteFiles/bairong/SqlScripts/cms.sql">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/SiteFiles/bairong/TextEditor/ckeditor/plugins/nextpage/plugin.js">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/SiteFiles/bairong/TextEditor/eWebEditor/language/zh-cn.js">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/SiteFiles/bairong/TextEditor/eWebEditor/style/coolblue.js">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/SiteServer/CMS/vssver2.scc">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/SiteServer/Inc/html_head.inc">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/SiteServer/Installer/EULA.html">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/SiteServer/Installer/readme/problem/1.html">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/SiteServer/Installer/SqlScripts/liveserver.sql">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/SiteServer/Services/AdministratorService.asmx">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/SiteServer/Themes/Language/en.xml">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/SiteServer/Themes/Skins/Skin-DirectoryTree.ascx">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/SiteServer/UserCenter/Skins/Skin-Footer.ascx">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/UserCenter/Inc/script.js">
+	<sign type=2 keyword="siteserver">SiteServer</sign>
+</path>
+<path type=2 path="/Add.asp">
+	<sign type=2 keyword="southidc">Southidc</sign>
+</path>
+<path type=2 path="/Admin/Images/southidc.css">
+	<sign type=2 keyword="southidc">Southidc</sign>
+</path>
+<path type=2 path="/admin/Inc/southidc.css">
+	<sign type=2 keyword="southidc">Southidc</sign>
+</path>
+<path type=2 path="/admin/SouthidcEditor/Include/Editor.js">
+	<sign type=2 keyword="southidc">Southidc</sign>
+</path>
+<path type=2 path="/Ads/left.js">
+	<sign type=2 keyword="southidc">Southidc</sign>
+</path>
+<path type=2 path="/Asp/ImageList.asp">
+	<sign type=2 keyword="southidc">Southidc</sign>
+</path>
+<path type=2 path="/Css/Style.css">
+	<sign type=2 keyword="southidc">Southidc</sign>
+</path>
+<path type=2 path="/Images/ad.js">
+	<sign type=2 keyword="southidc">Southidc</sign>
+</path>
+<path type=2 path="/Inc/NoSqlHack.asp">
+	<sign type=2 keyword="southidc">Southidc</sign>
+</path>
+<path type=2 path="/Map/51ditu/Index.asp">
+	<sign type=2 keyword="southidc">Southidc</sign>
+</path>
+<path type=2 path="/Qq/xml/qq.xml">
+	<sign type=2 keyword="southidc">Southidc</sign>
+</path>
+<path type=2 path="/Script/Html.js">
+	<sign type=2 keyword="southidc">Southidc</sign>
+</path>
+<path type=2 path="/license.txt">
+	<sign type=2 keyword="wordpress">WordPress</sign>
+</path>
+<path type=2 path="/readme.txt">
+	<sign type=2 keyword="wordpress">WordPress</sign>
+</path>
+<path type=2 path="/help.txt">
+	<sign type=2 keyword="wordpress">WordPress</sign>
+</path>
+<path type=2 path="/readme.html">
+	<sign type=2 keyword="wordpress">WordPress</sign>
+</path>
+<path type=2 path="/readme.htm">
+	<sign type=2 keyword="wordpress">WordPress</sign>
+</path>
+<path type=2 path="/wp-admin/css/colors-classic.css">
+	<sign type=2 keyword="wordpress">WordPress</sign>
+</path>
+<path type=2 path="/wp-admin/js/media-upload.dev.js">
+	<sign type=2 keyword="wordpress">WordPress</sign>
+</path>
+<path type=2 path="/wp-content/plugins/akismet/akismet.js">
+	<sign type=2 keyword="wordpress">WordPress</sign>
+</path>
+<path type=2 path="/wp-content/themes/classic/rtl.css">
+	<sign type=2 keyword="wordpress">WordPress</sign>
+</path>
+<path type=2 path="/wp-content/themes/twentyeleven/readme.txt">
+	<sign type=2 keyword="wordpress">WordPress</sign>
+</path>
+<path type=2 path="/wp-content/themes/twentyten/style.css">
+	<sign type=2 keyword="wordpress">WordPress</sign>
+</path>
+<path type=2 path="/wp-includes/css/buttons.css">
+	<sign type=2 keyword="wordpress">WordPress</sign>
+</path>
+<path type=2 path="/wp-includes/js/scriptaculous/wp-scriptaculous.js">
+	<sign type=2 keyword="wordpress">WordPress</sign>
+</path>
+<path type=2 path="/wp-includes/js/tinymce/langs/wp-langs-en.js">
+	<sign type=2 keyword="wordpress">WordPress</sign>
+</path>
+<path type=2 path="/wp-includes/js/tinymce/wp-tinymce.js">
+	<sign type=2 keyword="wordpress">WordPress</sign>
+</path>
+<path type=2 path="/wp-includes/wlwmanifest.xml">
+	<sign type=2 keyword="wordpress">WordPress</sign>
+</path>
+<path type=2 path="/license.txt">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=2 path="/PLUGIN/BackupDB/plugin.xml">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=2 path="/PLUGIN/PingTool/plugin.xml">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=2 path="/PLUGIN/PluginSapper/plugin.xml">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=2 path="/PLUGIN/ThemeSapper/plugin.xml">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=2 path="/SCRIPT/common.js">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=2 path="/THEMES/default/TEMPLATE/catalog.html">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=2 path="/THEMES/default/theme.xml">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=2 path="/zb_system/DEFEND/default/footer.html">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=2 path="/zb_system/DEFEND/thanks.html">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=2 path="/zb_system/SCRIPT/common.js">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=2 path="/zb_users/CACHE/updateinfo.txt">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=2 path="/zb_users/PLUGIN/AppCentre/plugin.xml">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=2 path="/zb_users/PLUGIN/FileManage/plugin.xml">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=2 path="/zb_users/THEME/default/theme.xml">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=2 path="/zb_users/THEME/HTML5CSS3/theme.xml">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=2 path="/zb_users/THEME/metro/TEMPLATE/footer.html">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=2 path="/zb_users/THEME/metro/theme.xml">
+	<sign type=2 keyword="z-blog">Z-Blog</sign>
+</path>
+<path type=1 path="/include/bbcode.js">
+	<sign type=1 md5="09e39edb81d80b1d1c283739ffa82f94">Discuz_5.0.0_SC_UTF8</sign>
+</path>
+<path type=1 path="/include/javascript/bbcode.js">
+	<sign type=1 md5="ea78507ac1ad2f6080d103e4b1dc3f1e">Discuz!_5.5.0_SC_UTF8</sign>
+	<sign type=1 md5="9a164ea578bf5504bb270c2f7d3b54ad">Discuz_6.0.0_SC_UTF8</sign>
+	<sign type=1 md5="83bf6197df2084e121a81f58db80a3f1">Discuz_6.1.0_SC_UTF8</sign>
+</path>
+<path type=1 path="/include/js/bbcode.js">
+	<sign type=1 md5="aecea5e073c84c79cf8cd05ef3643c5d">Discuz_7.0.0_SC_UTF8</sign>
+	<sign type=1 md5="1dd3bd1cfa9d30b7ccf7c7c6045c367c">Discuz_7.1_TC_UTF8</sign>
+	<sign type=1 md5="c6c5f9709b3925732b40534d89a0652e">Discuz_7.2_SC_UTF8</sign>
+</path>
+<path type=1 path="/static/js/bbcode.js">
+	<sign type=1 md5="57978621f5ae37ed0da4d1c6cba8fb0a">Discuz_X1_SC_GBK</sign>
+	<sign type=1 md5="3e57372a6fe7fce5c6845898b979cc06">Discuz_X1.5_SC_UTF8</sign>
+	<sign type=1 md5="fd6d23a71cc2af03ba0ba18bbcdfea58">Discuz_X1.5.1_TC_UTF8</sign>
+	<sign type=1 md5="d49177583716a3e6ca45344498631420">Discuz_X2_SC_UTF8</sign>
+	<sign type=1 md5="28be63415e362d0215459e04aa4c90c8">Discuz_X2.5RC_SC_UTF8</sign>
+	<sign type=1 md5="a42848d5e91393503c37c52f2accdd82">Discuz_X2.5_SC_GBK</sign>
+	<sign type=1 md5="2dd5df7484068eafa3c8cdb660903ab8">Discuz_X2.5_BETA_SC_GBK</sign>
+	<sign type=1 md5="55517e947d2464e8917cfcf8736f51b2">Discuz_X3gbk</sign>
+	<sign type=1 md5="39ff3a8ebc73e7f2513eb6f08b2754d8">Discuz_X3.0RC_TC_UTF8</sign>
+	<sign type=1 md5="7c9c7d424b487382a7da0c42c8185e70">Discuz_X3.0_BETA_SC_GBK</sign>
+</path>
+<path type=1 path="/javascript/dnteditor.js">
+	<sign type=1 md5="5cc44c503e29cf4a782a6221268cfd94">dnt_3.1.0</sign>
+	<sign type=1 md5="5f263ebdcb806c13b101df5b396d1437">dnt_3</sign>
+	<sign type=1 md5="2649958f679aaeefc83e01b4aba5da38">dnt_2.5</sign>
+</path>
+<path type=1 path="/editor/bbcode.js">
+	<sign type=1 md5="a56d18440ca1fd39685761a5c69cefdb">dnt_2</sign>
+</path>
+<path type=1 path="/javascript/bbcode.js">
+	<sign type=1 md5="a56d18440ca1fd39685761a5c69cefdb">dnt_2</sign>
+	<sign type=1 md5="93ade6c7a7934f097b45b470e4ddf71c">dnt_2.6</sign>
+	<sign type=1 md5="c28f1ff679b3f9fc91818d905d1d4bcf">dnt_3.5.0</sign>
+	<sign type=1 md5="0fa831a99e26f37bd4131d91a41c6f2c">dnt_3.5.1|dnt_3.5.2</sign>
+	<sign type=1 md5="80abcf3848102c975e9ca9a6ec2de202">dnt_3.6</sign>
+	<sign type=1 md5="20afa65e19d60d0aee9d94982b3d2c9a">dnt_3.9</sign>
+</path>

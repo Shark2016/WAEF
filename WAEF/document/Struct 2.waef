@@ -1,0 +1,20 @@
+<info>
+	<name>这里写模块名称</name>
+	<desc>6L+Z6YeM5YaZ5qih5Z2X5o+P6L+w77yMQmFzZTY057yW56CB6L+H55qE5ZOm</desc>
+	<conf>6L+Z6YeM5YaZ5qih5Z2X6YWN572u5a2X5Liy77yMQmFzZTY057yW56CB6L+H55qE5ZOm</conf>
+</info>
+<payload method=1>
+	<url>base64data</url>
+	<header>base64data</header>
+	<sign type=1 keyword="SQL ERROR"></sign>
+	<comment1>恭喜，不存在漏洞</comment1>
+	<comment2>存在漏洞，修复建议</comment2>
+</payload>
+<payload method=2>
+	<url>base64data</url>
+	<header>base64data</header>
+	<post>base64data</post>
+	<sign type=2 start="Powered by " stop="&lt;/"></sign>
+	<comment1>恭喜，不存在漏洞</comment1>
+	<comment2>Data: </comment2>
+</payload>

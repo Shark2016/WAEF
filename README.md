@@ -2,7 +2,7 @@
 
 ## 界面
 
-![image](https://raw.githubusercontent.com/Shark2016/WAEF/main/Snapshot/WAEF.png)
+![image](https://user-images.githubusercontent.com/15321612/114363443-fad5e700-9baa-11eb-9797-45ed6a73e29f.png)
 
 ## 功能列表
 
